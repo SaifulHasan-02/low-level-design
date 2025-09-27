@@ -1,5 +1,5 @@
 package parkingLotSystem.paymentSystem;
 
 public interface PaymentStrategy {
-    public void collectPayment();
+    public void collectPayment(Double amt);
 }
